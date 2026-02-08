@@ -1,0 +1,1 @@
+python -m rl_zoo3.train --algo dqn --env LunarLander-v3 -f ./irl/logs -c ./irl/dqn_parameters.yml --seed 1 --save-freq 25000 --eval-freq 25000 --eval-episodes 5 --tensorboard-log ./irl/content/tb
