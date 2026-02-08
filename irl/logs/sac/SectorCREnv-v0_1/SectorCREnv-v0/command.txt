@@ -1,0 +1,1 @@
+python -m rl_zoo3.train --algo sac --env SectorCREnv-v0 -f ./irl/logs -c ./irl/sac_parameters.yml --seed 1 --save-freq 25000 --gym-packages import_bluesky_gym
